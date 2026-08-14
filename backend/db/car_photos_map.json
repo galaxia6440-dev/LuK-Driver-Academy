@@ -1,0 +1,225 @@
+[
+  {
+    "name": "Infinity G37",
+    "slug": "infinity-g37",
+    "category_folder": "Autre",
+    "photos": [
+      "/uploads/cars/infinity-g37/1.jpg",
+      "/uploads/cars/infinity-g37/2.jpg",
+      "/uploads/cars/infinity-g37/3.jpg",
+      "/uploads/cars/infinity-g37/4.jpg"
+    ]
+  },
+  {
+    "name": "Kia Stinger GT",
+    "slug": "kia-stinger-gt",
+    "category_folder": "Autre",
+    "photos": [
+      "/uploads/cars/kia-stinger-gt/1.jpg",
+      "/uploads/cars/kia-stinger-gt/2.jpg",
+      "/uploads/cars/kia-stinger-gt/3.jpg",
+      "/uploads/cars/kia-stinger-gt/4.jpg",
+      "/uploads/cars/kia-stinger-gt/5.jpg"
+    ]
+  },
+  {
+    "name": "Honda Civic",
+    "slug": "honda-civic",
+    "category_folder": "Débutant",
+    "photos": [
+      "/uploads/cars/honda-civic/1.jpg",
+      "/uploads/cars/honda-civic/2.jpg"
+    ]
+  },
+  {
+    "name": "Peugeot 308",
+    "slug": "peugeot-308",
+    "category_folder": "Débutant",
+    "photos": [
+      "/uploads/cars/peugeot-308/1.jpg",
+      "/uploads/cars/peugeot-308/2.jpg",
+      "/uploads/cars/peugeot-308/3.jpg",
+      "/uploads/cars/peugeot-308/4.jpg"
+    ]
+  },
+  {
+    "name": "Audi R8 GT3",
+    "slug": "audi-r8-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/audi-r8-gt3/1.jpg",
+      "/uploads/cars/audi-r8-gt3/2.jpg",
+      "/uploads/cars/audi-r8-gt3/3.jpg",
+      "/uploads/cars/audi-r8-gt3/4.jpg"
+    ]
+  },
+  {
+    "name": "BMW M4 GT3",
+    "slug": "bmw-m4-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/bmw-m4-gt3/1.jpg",
+      "/uploads/cars/bmw-m4-gt3/2.jpg",
+      "/uploads/cars/bmw-m4-gt3/3.jpg",
+      "/uploads/cars/bmw-m4-gt3/4.jpg"
+    ]
+  },
+  {
+    "name": "BMW M8 GT3",
+    "slug": "bmw-m8-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/bmw-m8-gt3/1.jpg",
+      "/uploads/cars/bmw-m8-gt3/2.jpg",
+      "/uploads/cars/bmw-m8-gt3/3.jpg",
+      "/uploads/cars/bmw-m8-gt3/4.jpg"
+    ]
+  },
+  {
+    "name": "Chevrolet Camaro GT3",
+    "slug": "chevrolet-camaro-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/chevrolet-camaro-gt3/1.jpg",
+      "/uploads/cars/chevrolet-camaro-gt3/2.jpg",
+      "/uploads/cars/chevrolet-camaro-gt3/3.jpg",
+      "/uploads/cars/chevrolet-camaro-gt3/4.jpg"
+    ]
+  },
+  {
+    "name": "Corvette C8 GT3",
+    "slug": "corvette-c8-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/corvette-c8-gt3/1.jpg",
+      "/uploads/cars/corvette-c8-gt3/2.jpg",
+      "/uploads/cars/corvette-c8-gt3/3.jpg",
+      "/uploads/cars/corvette-c8-gt3/4.jpg"
+    ]
+  },
+  {
+    "name": "Dodge Viper GT3",
+    "slug": "dodge-viper-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/dodge-viper-gt3/1.jpg",
+      "/uploads/cars/dodge-viper-gt3/2.jpg",
+      "/uploads/cars/dodge-viper-gt3/3.jpg",
+      "/uploads/cars/dodge-viper-gt3/4.jpg"
+    ]
+  },
+  {
+    "name": "Ferrari 458 GT3",
+    "slug": "ferrari-458-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/ferrari-458-gt3/1.jpg",
+      "/uploads/cars/ferrari-458-gt3/2.jpg",
+      "/uploads/cars/ferrari-458-gt3/3.jpg",
+      "/uploads/cars/ferrari-458-gt3/4.jpg"
+    ]
+  },
+  {
+    "name": "Ford GT GT3",
+    "slug": "ford-gt-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/ford-gt-gt3/1.jpg",
+      "/uploads/cars/ford-gt-gt3/2.jpg",
+      "/uploads/cars/ford-gt-gt3/3.jpg",
+      "/uploads/cars/ford-gt-gt3/4.jpg"
+    ]
+  },
+  {
+    "name": "Ford Mustang GT3",
+    "slug": "ford-mustang-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/ford-mustang-gt3/1.jpg",
+      "/uploads/cars/ford-mustang-gt3/2.jpg",
+      "/uploads/cars/ford-mustang-gt3/3.jpg",
+      "/uploads/cars/ford-mustang-gt3/4.jpg"
+    ]
+  },
+  {
+    "name": "Ford Mustang GT3 LuK x Ikea Racing Team",
+    "slug": "ford-mustang-gt3-luk-x-ikea-racing-team",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/ford-mustang-gt3-luk-x-ikea-racing-team/1.jpg",
+      "/uploads/cars/ford-mustang-gt3-luk-x-ikea-racing-team/2.jpg",
+      "/uploads/cars/ford-mustang-gt3-luk-x-ikea-racing-team/3.jpg"
+    ]
+  },
+  {
+    "name": "Mercedes AMG GT3",
+    "slug": "mercedes-amg-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/mercedes-amg-gt3/1.jpg",
+      "/uploads/cars/mercedes-amg-gt3/2.jpg",
+      "/uploads/cars/mercedes-amg-gt3/3.jpg",
+      "/uploads/cars/mercedes-amg-gt3/4.jpg",
+      "/uploads/cars/mercedes-amg-gt3/5.jpg",
+      "/uploads/cars/mercedes-amg-gt3/6.jpg"
+    ]
+  },
+  {
+    "name": "Toyota Supra GT3",
+    "slug": "toyota-supra-gt3",
+    "category_folder": "Gt3",
+    "photos": [
+      "/uploads/cars/toyota-supra-gt3/1.jpg",
+      "/uploads/cars/toyota-supra-gt3/2.jpg",
+      "/uploads/cars/toyota-supra-gt3/3.jpg",
+      "/uploads/cars/toyota-supra-gt3/4.jpg"
+    ]
+  },
+  {
+    "name": "Hyundai Veloster",
+    "slug": "hyundai-veloster",
+    "category_folder": "Rallye",
+    "photos": [
+      "/uploads/cars/hyundai-veloster/1.jpg",
+      "/uploads/cars/hyundai-veloster/2.jpg",
+      "/uploads/cars/hyundai-veloster/3.jpg",
+      "/uploads/cars/hyundai-veloster/4.jpg",
+      "/uploads/cars/hyundai-veloster/5.jpg",
+      "/uploads/cars/hyundai-veloster/6.jpg"
+    ]
+  },
+  {
+    "name": "Subaru WRX STI",
+    "slug": "subaru-wrx-sti",
+    "category_folder": "Rallye",
+    "photos": [
+      "/uploads/cars/subaru-wrx-sti/1.jpg",
+      "/uploads/cars/subaru-wrx-sti/2.jpg",
+      "/uploads/cars/subaru-wrx-sti/3.jpg",
+      "/uploads/cars/subaru-wrx-sti/4.jpg"
+    ]
+  },
+  {
+    "name": "Toyota GT86",
+    "slug": "toyota-gt86",
+    "category_folder": "Rallye",
+    "photos": [
+      "/uploads/cars/toyota-gt86/1.jpg",
+      "/uploads/cars/toyota-gt86/2.jpg",
+      "/uploads/cars/toyota-gt86/3.jpg",
+      "/uploads/cars/toyota-gt86/4.jpg",
+      "/uploads/cars/toyota-gt86/5.jpg",
+      "/uploads/cars/toyota-gt86/6.jpg"
+    ]
+  },
+  {
+    "name": "Volkswagen Scirocco",
+    "slug": "volkswagen-scirocco",
+    "category_folder": "Rallye",
+    "photos": [
+      "/uploads/cars/volkswagen-scirocco/1.jpg",
+      "/uploads/cars/volkswagen-scirocco/2.jpg",
+      "/uploads/cars/volkswagen-scirocco/3.jpg"
+    ]
+  }
+]

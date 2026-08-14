@@ -1,0 +1,56 @@
+.recruit-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-top: 44px;
+  max-width: 760px;
+}
+
+.recruit-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.recruit-form input,
+.recruit-form select,
+.recruit-form textarea {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 12px 14px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  text-transform: none;
+  letter-spacing: normal;
+}
+.recruit-form input:focus,
+.recruit-form select:focus,
+.recruit-form textarea:focus {
+  border-color: var(--gold);
+  outline: none;
+}
+
+.recruit-form__full {
+  grid-column: 1 / -1;
+}
+
+.recruit-form__success {
+  color: #8fd19e;
+  margin-top: 14px;
+}
+.recruit-form__error {
+  color: #ff8a8a;
+  margin-top: 14px;
+}
+
+@media (max-width: 640px) {
+  .recruit-form {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,120 @@
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(11, 13, 16, 0.92);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--border);
+}
+
+.nav__stripe {
+  height: 3px;
+  background: repeating-linear-gradient(-45deg, var(--gold) 0 16px, transparent 16px 26px);
+}
+
+.nav__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 68px;
+}
+
+.nav__brand {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.nav__brand span {
+  color: var(--gold);
+}
+
+.nav__links {
+  display: flex;
+  gap: 26px;
+}
+
+.nav__link {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+.nav__link:hover {
+  color: var(--text);
+}
+.nav__link--active {
+  color: var(--gold);
+  border-color: var(--gold);
+}
+
+.nav__actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.nav__lang {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  background: transparent;
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.nav__lang:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+.nav__lang-sep {
+  color: var(--text-muted);
+}
+
+.nav__burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+.nav__burger span {
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+}
+
+@media (max-width: 900px) {
+  .nav__links {
+    position: fixed;
+    top: 71px;
+    left: 0;
+    right: 0;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    flex-direction: column;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+  }
+  .nav__links--open {
+    max-height: 480px;
+  }
+  .nav__link {
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    width: 100%;
+  }
+  .nav__burger {
+    display: flex;
+  }
+}
