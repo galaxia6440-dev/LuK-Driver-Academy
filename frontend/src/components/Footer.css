@@ -1,6 +1,7 @@
 .footer {
   border-top: 1px solid var(--border);
   margin-top: 64px;
+  background: var(--navy-deep);
 }
 
 .footer__row {
@@ -35,6 +36,9 @@
   letter-spacing: 0.06em;
   color: var(--text-muted);
 }
+.footer__links a {
+  transition: color 0.15s ease;
+}
 .footer__links a:hover {
-  color: var(--gold);
+  color: var(--yellow);
 }

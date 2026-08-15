@@ -1,19 +1,32 @@
 :root {
-  --bg: #0b0d10;
-  --surface: #14171c;
-  --surface-alt: #1b1f26;
-  --border: #262b33;
-  --text: #f2f3f5;
-  --text-muted: #9aa1ac;
-  --gold: #e4b54a;
-  --red: #c23b3b;
-  --blue: #3e6b8a;
+  /* Nuit de circuit : noir profond glissant vers le bleu nuit */
+  --navy-deep: #05060c;
+  --navy: #0a0e1c;
+  --navy-soft: #10152a;
+  --bg: var(--navy);
+  --surface: #121729;
+  --surface-alt: #182036;
+  --border: #232b45;
+  --border-soft: #1a2138;
+
+  --text: #f5f6fa;
+  --text-muted: #8a92ac;
+
+  /* Touche jaune course, réservée aux accents */
+  --yellow: #f7c948;
+  --yellow-soft: #ffe08a;
+  --gold: var(--yellow); /* alias conservé pour compat avec les composants existants */
+
+  --red: #e2495a;
+  --blue: #4c7fb0;
 
   --font-display: "Rajdhani", "Arial Narrow", sans-serif;
   --font-body: "Inter", system-ui, sans-serif;
   --font-mono: "JetBrains Mono", "Courier New", monospace;
 
-  --radius: 2px;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --radius-lg: 16px;
   --container: 1180px;
 }
 
@@ -27,7 +40,11 @@ html {
 
 body {
   margin: 0;
-  background: var(--bg);
+  background:
+    radial-gradient(1200px 600px at 85% -10%, rgba(247, 201, 72, 0.06), transparent 55%),
+    radial-gradient(900px 500px at -10% 20%, rgba(76, 127, 176, 0.10), transparent 50%),
+    linear-gradient(180deg, var(--navy-deep) 0%, var(--navy) 40%, var(--navy) 100%);
+  background-attachment: fixed;
   color: var(--text);
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
@@ -48,7 +65,7 @@ button {
 }
 
 :focus-visible {
-  outline: 2px solid var(--gold);
+  outline: 2px solid var(--yellow);
   outline-offset: 2px;
 }
 
@@ -72,7 +89,8 @@ button {
   font-size: 12px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--gold);
+  color: var(--yellow);
+  font-weight: 600;
 }
 
 .h1 {
@@ -83,6 +101,7 @@ button {
   letter-spacing: 0.01em;
   text-transform: uppercase;
   margin: 8px 0 0;
+  color: var(--text);
 }
 
 .h2 {
@@ -110,13 +129,13 @@ button {
   max-width: 62ch;
 }
 
-/* Livery stripe — signature divider element */
+/* Livery stripe — signature divider element, tricolore piste */
 .stripe {
   height: 6px;
   width: 100%;
   background: repeating-linear-gradient(
     -45deg,
-    var(--gold) 0 22px,
+    var(--yellow) 0 22px,
     transparent 22px 34px
   );
   opacity: 0.9;
@@ -151,26 +170,30 @@ button {
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  padding: 13px 24px;
-  border: 1px solid var(--gold);
+  padding: 13px 26px;
+  border: 1.5px solid var(--yellow);
+  border-radius: 999px;
   background: transparent;
-  color: var(--gold);
+  color: var(--yellow);
   cursor: pointer;
-  transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
 }
 
 .btn:hover {
-  background: var(--gold);
-  color: #0b0d10;
+  background: var(--yellow);
+  color: var(--navy-deep);
+  box-shadow: 0 8px 24px -8px rgba(247, 201, 72, 0.55);
 }
 
 .btn--solid {
-  background: var(--gold);
-  color: #0b0d10;
+  background: var(--yellow);
+  color: var(--navy-deep);
+  box-shadow: 0 8px 24px -10px rgba(247, 201, 72, 0.45);
 }
 .btn--solid:hover {
-  background: #f4c665;
-  transform: translateY(-1px);
+  background: var(--yellow-soft);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -8px rgba(247, 201, 72, 0.6);
 }
 
 .btn--ghost {
@@ -178,13 +201,15 @@ button {
   color: var(--text);
 }
 .btn--ghost:hover {
-  border-color: var(--text-muted);
+  border-color: var(--yellow);
   background: var(--surface-alt);
-  color: var(--text);
+  color: var(--yellow);
+  box-shadow: none;
+  transform: translateY(-2px);
 }
 
 .btn--sm {
-  padding: 9px 16px;
+  padding: 9px 18px;
   font-size: 11px;
 }
 
@@ -193,26 +218,53 @@ button {
   font-size: 11px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding: 4px 10px;
+  padding: 5px 12px;
   border: 1px solid var(--border);
+  border-radius: 999px;
   color: var(--text-muted);
   display: inline-block;
 }
 
 .tag--gold {
-  color: var(--gold);
-  border-color: var(--gold);
+  color: var(--navy-deep);
+  background: var(--yellow);
+  border-color: var(--yellow);
+  font-weight: 700;
 }
 
 .tag--red {
-  color: #ff8a8a;
+  color: #ffb3bb;
   border-color: var(--red);
-  background: rgba(194, 59, 59, 0.12);
+  background: rgba(226, 73, 90, 0.14);
+}
+
+/* Badge catégorie — pastille pleine, look "compétition", réutilisable partout */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 5px 11px;
+  border-radius: 999px;
+  background: rgba(247, 201, 72, 0.14);
+  color: var(--yellow-soft);
+  border: 1px solid rgba(247, 201, 72, 0.35);
 }
 
 .card {
-  background: var(--surface);
+  background: linear-gradient(180deg, var(--surface) 0%, var(--navy-soft) 100%);
   border: 1px solid var(--border);
+  border-radius: var(--radius);
+  transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
+}
+
+.card:hover {
+  border-color: rgba(247, 201, 72, 0.4);
+  box-shadow: 0 16px 36px -18px rgba(0, 0, 0, 0.6);
 }
 
 .grid {
@@ -240,14 +292,17 @@ button {
     grid-template-columns: 1fr;
   }
   .section {
-    padding: 56px 0;
+    padding: 48px 0;
+  }
+  .h1 {
+    font-size: clamp(2.2rem, 9vw, 3rem);
   }
 }
 
 .spec-row {
   display: flex;
   justify-content: space-between;
-  padding: 10px 0;
+  padding: 11px 0;
   border-bottom: 1px solid var(--border);
   font-family: var(--font-mono);
   font-size: 13px;
@@ -260,8 +315,9 @@ button {
 
 .return-notice {
   border: 1px solid var(--red);
-  background: rgba(194, 59, 59, 0.1);
-  color: #ffb3b3;
+  border-radius: var(--radius-sm);
+  background: rgba(226, 73, 90, 0.1);
+  color: #ffb3bb;
   padding: 14px 16px;
   font-size: 14px;
   line-height: 1.5;
@@ -272,8 +328,8 @@ button {
   position: absolute;
   left: -9999px;
   top: 0;
-  background: var(--gold);
-  color: #0b0d10;
+  background: var(--yellow);
+  color: var(--navy-deep);
   padding: 10px 16px;
   z-index: 200;
 }
@@ -281,3 +337,30 @@ button {
   left: 12px;
   top: 12px;
 }
+
+/* Animations légères — entrée en fondu/translation, style "arrivée sur la grille" */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeInUp 0.5s ease both;
+}
+
+.grid > * {
+  animation: fadeInUp 0.5s ease both;
+}
+.grid > *:nth-child(1) { animation-delay: 0.02s; }
+.grid > *:nth-child(2) { animation-delay: 0.08s; }
+.grid > *:nth-child(3) { animation-delay: 0.14s; }
+.grid > *:nth-child(4) { animation-delay: 0.2s; }
+.grid > *:nth-child(5) { animation-delay: 0.26s; }
+.grid > *:nth-child(6) { animation-delay: 0.32s; }
+.grid > *:nth-child(n+7) { animation-delay: 0.36s; }

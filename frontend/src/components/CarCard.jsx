@@ -21,7 +21,7 @@ export default function CarCard({ car, categories, levels, statuses }) {
       </div>
       <div className="car-card__body">
         <div className="car-card__meta">
-          {category && <span className="eyebrow">{lang === "fr" ? category.name_fr : category.name_en}</span>}
+          {category && <span className="badge">{lang === "fr" ? category.name_fr : category.name_en}</span>}
           {level && <span className="tag tag--gold">{lang === "fr" ? level.label_fr : level.label_en}</span>}
         </div>
         <h3 className="h3 car-card__name">{car.name}</h3>

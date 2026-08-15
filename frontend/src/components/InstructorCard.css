@@ -1,17 +1,24 @@
 .instructor-card {
   display: flex;
-  gap: 18px;
+  gap: 20px;
   align-items: center;
-  background: var(--surface);
+  background: linear-gradient(180deg, var(--surface) 0%, var(--navy-soft) 100%);
   border: 1px solid var(--border);
-  padding: 20px;
+  border-radius: var(--radius);
+  padding: 22px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+.instructor-card:hover {
+  border-color: rgba(247, 201, 72, 0.4);
+  transform: translateY(-3px);
 }
 
 .instructor-card__photo {
   flex: 0 0 auto;
-  width: 84px;
-  height: 84px;
-  border: 1px solid var(--gold);
+  width: 88px;
+  height: 88px;
+  border-radius: 999px;
+  border: 2px solid var(--yellow);
   overflow: hidden;
   background: var(--surface-alt);
 }
@@ -28,7 +35,9 @@
   justify-content: center;
   font-family: var(--font-display);
   font-size: 2rem;
-  color: var(--gold);
+  font-weight: 700;
+  color: var(--yellow);
+  background: rgba(247, 201, 72, 0.1);
 }
 
 .instructor-card__specialty {

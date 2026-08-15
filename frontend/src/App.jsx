@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home.jsx";
 import Academy from "./pages/Academy.jsx";
+import Instructors from "./pages/Instructors.jsx";
 import Trainings from "./pages/Trainings.jsx";
 import Categories from "./pages/Categories.jsx";
 import Fleet from "./pages/Fleet.jsx";
@@ -41,6 +42,7 @@ export default function App() {
                 <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/academie" element={<Academy />} />
+                  <Route path="/moniteurs" element={<Instructors />} />
                   <Route path="/formations" element={<Trainings />} />
                   <Route path="/categories" element={<Categories />} />
                   <Route path="/flotte" element={<Fleet />} />

@@ -56,6 +56,16 @@ const trainings = [
   { name_fr: "Formation avancée", name_en: "Advanced training", level_key: "avance", category_key: "formation-avancee" },
 ];
 
+const events = [
+  {
+    title_fr: "Championnat de Rallye GPR",
+    title_en: "GPR Rally Championship",
+    description_fr: "La LuK Driver Academy participe actuellement au championnat de rallye organisé par la GPR (Grand Prix Racing). Rejoins le serveur Discord GPR pour suivre les prochaines manches.",
+    description_en: "LuK Driver Academy is currently competing in the rally championship organized by GPR (Grand Prix Racing). Join the GPR Discord server to follow upcoming rounds.",
+    date: "En cours",
+  },
+];
+
 function run() {
   const insertCategory = db.prepare(`INSERT OR IGNORE INTO categories (key, name_fr, name_en, description_fr, description_en, sort_order) VALUES (@key, @name_fr, @name_en, @description_fr, @description_en, @sort_order)`);
   categories.forEach((c) => insertCategory.run(c));
@@ -101,6 +111,12 @@ function run() {
       const carId = info.lastInsertRowid;
       c.photos.forEach((url, pIdx) => insertPhoto.run(carId, url, pIdx + 1));
     });
+  }
+
+  const existingEvents = db.prepare(`SELECT COUNT(*) as c FROM events`).get();
+  if (existingEvents.c === 0) {
+    const insertEvent = db.prepare(`INSERT INTO events (title_fr, title_en, description_fr, description_en, date) VALUES (?, ?, ?, ?, ?)`);
+    events.forEach((e) => insertEvent.run(e.title_fr, e.title_en, e.description_fr, e.description_en, e.date));
   }
 
   const existingAdmin = db.prepare(`SELECT COUNT(*) as c FROM admins`).get();

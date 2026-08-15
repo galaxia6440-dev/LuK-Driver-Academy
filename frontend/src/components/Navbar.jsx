@@ -6,6 +6,7 @@ import "./Navbar.css";
 const links = [
   { to: "/", key: "nav_home" },
   { to: "/academie", key: "nav_academy" },
+  { to: "/moniteurs", key: "nav_instructors" },
   { to: "/formations", key: "nav_trainings" },
   { to: "/categories", key: "nav_categories" },
   { to: "/flotte", key: "nav_fleet" },

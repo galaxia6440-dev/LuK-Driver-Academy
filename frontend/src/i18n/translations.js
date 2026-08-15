@@ -2,6 +2,7 @@ export const translations = {
   fr: {
     nav_home: "Accueil",
     nav_academy: "Académie",
+    nav_instructors: "Moniteurs",
     nav_trainings: "Formations",
     nav_categories: "Catégories",
     nav_fleet: "Nos voitures",
@@ -33,6 +34,8 @@ export const translations = {
 
     home_instructors_kicker: "L'équipe",
     home_instructors_title: "Moniteurs",
+    instructors_intro:
+      "Les moniteurs qui encadrent les pilotes de la LuK Driver Academy, sur boîte automatique comme manuelle.",
 
     home_fleet_kicker: "La flotte",
     home_fleet_title: "Voitures de l'académie",
@@ -114,6 +117,7 @@ export const translations = {
   en: {
     nav_home: "Home",
     nav_academy: "Academy",
+    nav_instructors: "Instructors",
     nav_trainings: "Trainings",
     nav_categories: "Categories",
     nav_fleet: "Our Cars",
@@ -145,6 +149,8 @@ export const translations = {
 
     home_instructors_kicker: "The team",
     home_instructors_title: "Instructors",
+    instructors_intro:
+      "The instructors coaching LuK Driver Academy drivers, on both automatic and manual transmission.",
 
     home_fleet_kicker: "The fleet",
     home_fleet_title: "Academy cars",

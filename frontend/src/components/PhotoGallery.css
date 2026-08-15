@@ -3,6 +3,8 @@
   width: 100%;
   padding: 0;
   border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
   background: #05060a;
   cursor: zoom-in;
   aspect-ratio: 16 / 10;
@@ -27,6 +29,8 @@
   height: 56px;
   padding: 0;
   border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
   background: #05060a;
   cursor: pointer;
   opacity: 0.6;
@@ -37,7 +41,7 @@
   object-fit: cover;
 }
 .gallery__thumb--active {
-  border-color: var(--gold);
+  border-color: var(--yellow);
   opacity: 1;
 }
 
