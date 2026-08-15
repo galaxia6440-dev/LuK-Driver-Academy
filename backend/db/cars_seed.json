@@ -7,8 +7,13 @@
     "status": "academie",
     "description_fr": null,
     "description_en": null,
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/audi-r8-gt3/1.jpg",
+      "/uploads/cars/audi-r8-gt3/2.jpg",
+      "/uploads/cars/audi-r8-gt3/3.jpg",
+      "/uploads/cars/audi-r8-gt3/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/audi-r8-gt3/1.jpg"
   },
   {
     "slug": "ford-gt-gt3",
@@ -18,8 +23,13 @@
     "status": "competition",
     "description_fr": "Une des voitures de Compétition d'une des branches de la LuK Racing Team",
     "description_en": "One of the competition cars from one of the LuK Racing Team branches",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/ford-gt-gt3/1.jpg",
+      "/uploads/cars/ford-gt-gt3/2.jpg",
+      "/uploads/cars/ford-gt-gt3/3.jpg",
+      "/uploads/cars/ford-gt-gt3/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/ford-gt-gt3/1.jpg"
   },
   {
     "slug": "bmw-m4-gt3",
@@ -29,8 +39,13 @@
     "status": "academie",
     "description_fr": null,
     "description_en": null,
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/bmw-m4-gt3/1.jpg",
+      "/uploads/cars/bmw-m4-gt3/2.jpg",
+      "/uploads/cars/bmw-m4-gt3/3.jpg",
+      "/uploads/cars/bmw-m4-gt3/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/bmw-m4-gt3/1.jpg"
   },
   {
     "slug": "bmw-m8-gt3",
@@ -40,8 +55,13 @@
     "status": "academie",
     "description_fr": null,
     "description_en": null,
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/bmw-m8-gt3/1.jpg",
+      "/uploads/cars/bmw-m8-gt3/2.jpg",
+      "/uploads/cars/bmw-m8-gt3/3.jpg",
+      "/uploads/cars/bmw-m8-gt3/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/bmw-m8-gt3/1.jpg"
   },
   {
     "slug": "chevrolet-camaro-gt3",
@@ -51,8 +71,13 @@
     "status": "competition",
     "description_fr": "Voiture de la branche Course de l'académie.",
     "description_en": "Car from the academy's Racing branch.",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/chevrolet-camaro-gt3/1.jpg",
+      "/uploads/cars/chevrolet-camaro-gt3/2.jpg",
+      "/uploads/cars/chevrolet-camaro-gt3/3.jpg",
+      "/uploads/cars/chevrolet-camaro-gt3/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/chevrolet-camaro-gt3/1.jpg"
   },
   {
     "slug": "corvette-c8-gt3",
@@ -62,8 +87,13 @@
     "status": "academie",
     "description_fr": null,
     "description_en": null,
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/corvette-c8-gt3/1.jpg",
+      "/uploads/cars/corvette-c8-gt3/2.jpg",
+      "/uploads/cars/corvette-c8-gt3/3.jpg",
+      "/uploads/cars/corvette-c8-gt3/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/corvette-c8-gt3/1.jpg"
   },
   {
     "slug": "dodge-viper-gt3",
@@ -73,8 +103,13 @@
     "status": "academie",
     "description_fr": null,
     "description_en": null,
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/dodge-viper-gt3/1.jpg",
+      "/uploads/cars/dodge-viper-gt3/2.jpg",
+      "/uploads/cars/dodge-viper-gt3/3.jpg",
+      "/uploads/cars/dodge-viper-gt3/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/dodge-viper-gt3/1.jpg"
   },
   {
     "slug": "ferrari-458-gt3",
@@ -84,8 +119,13 @@
     "status": "academie",
     "description_fr": null,
     "description_en": null,
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/ferrari-458-gt3/1.jpg",
+      "/uploads/cars/ferrari-458-gt3/2.jpg",
+      "/uploads/cars/ferrari-458-gt3/3.jpg",
+      "/uploads/cars/ferrari-458-gt3/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/ferrari-458-gt3/1.jpg"
   },
   {
     "slug": "ford-mustang-gt3",
@@ -95,8 +135,13 @@
     "status": "academie",
     "description_fr": null,
     "description_en": null,
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/ford-mustang-gt3/1.jpg",
+      "/uploads/cars/ford-mustang-gt3/2.jpg",
+      "/uploads/cars/ford-mustang-gt3/3.jpg",
+      "/uploads/cars/ford-mustang-gt3/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/ford-mustang-gt3/1.jpg"
   },
   {
     "slug": "ford-mustang-gt3-luk-x-ikea-racing-team",
@@ -106,8 +151,12 @@
     "status": "competition",
     "description_fr": "Voiture de l'équipe LuK x Ikea Racing Team.",
     "description_en": "Car of the LuK x Ikea Racing Team.",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/ford-mustang-gt3-luk-x-ikea-racing-team/1.jpg",
+      "/uploads/cars/ford-mustang-gt3-luk-x-ikea-racing-team/2.jpg",
+      "/uploads/cars/ford-mustang-gt3-luk-x-ikea-racing-team/3.jpg"
+    ],
+    "main_photo": "/uploads/cars/ford-mustang-gt3-luk-x-ikea-racing-team/1.jpg"
   },
   {
     "slug": "mercedes-amg-gt3",
@@ -117,8 +166,15 @@
     "status": "competition",
     "description_fr": "Voiture de la LuK Racing Team Ciao Kombucha.",
     "description_en": "Car of the LuK Racing Team Ciao Kombucha.",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/mercedes-amg-gt3/1.jpg",
+      "/uploads/cars/mercedes-amg-gt3/2.jpg",
+      "/uploads/cars/mercedes-amg-gt3/3.jpg",
+      "/uploads/cars/mercedes-amg-gt3/4.jpg",
+      "/uploads/cars/mercedes-amg-gt3/5.jpg",
+      "/uploads/cars/mercedes-amg-gt3/6.jpg"
+    ],
+    "main_photo": "/uploads/cars/mercedes-amg-gt3/1.jpg"
   },
   {
     "slug": "toyota-supra-gt3",
@@ -128,8 +184,13 @@
     "status": "academie",
     "description_fr": null,
     "description_en": null,
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/toyota-supra-gt3/1.jpg",
+      "/uploads/cars/toyota-supra-gt3/2.jpg",
+      "/uploads/cars/toyota-supra-gt3/3.jpg",
+      "/uploads/cars/toyota-supra-gt3/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/toyota-supra-gt3/1.jpg"
   },
   {
     "slug": "hyundai-veloster",
@@ -139,8 +200,15 @@
     "status": "competition",
     "description_fr": "Voiture de la Repsol OnlyFans.",
     "description_en": "Car of the Repsol OnlyFans.",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/hyundai-veloster/1.jpg",
+      "/uploads/cars/hyundai-veloster/2.jpg",
+      "/uploads/cars/hyundai-veloster/3.jpg",
+      "/uploads/cars/hyundai-veloster/4.jpg",
+      "/uploads/cars/hyundai-veloster/5.jpg",
+      "/uploads/cars/hyundai-veloster/6.jpg"
+    ],
+    "main_photo": "/uploads/cars/hyundai-veloster/1.jpg"
   },
   {
     "slug": "subaru-wrx-sti",
@@ -150,8 +218,13 @@
     "status": "academie",
     "description_fr": "La voiture de rallye pour les entraînements.",
     "description_en": "The rally car used for training sessions.",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/subaru-wrx-sti/1.jpg",
+      "/uploads/cars/subaru-wrx-sti/2.jpg",
+      "/uploads/cars/subaru-wrx-sti/3.jpg",
+      "/uploads/cars/subaru-wrx-sti/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/subaru-wrx-sti/1.jpg"
   },
   {
     "slug": "toyota-gt86",
@@ -161,8 +234,15 @@
     "status": "competition",
     "description_fr": "Voiture de rallye de la LuK Racing Team Ciao Kombucha",
     "description_en": "Rally car of the LuK Racing Team Ciao Kombucha",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/toyota-gt86/1.jpg",
+      "/uploads/cars/toyota-gt86/2.jpg",
+      "/uploads/cars/toyota-gt86/3.jpg",
+      "/uploads/cars/toyota-gt86/4.jpg",
+      "/uploads/cars/toyota-gt86/5.jpg",
+      "/uploads/cars/toyota-gt86/6.jpg"
+    ],
+    "main_photo": "/uploads/cars/toyota-gt86/1.jpg"
   },
   {
     "slug": "volkswagen-scirocco",
@@ -172,8 +252,12 @@
     "status": "competition_debutant",
     "description_fr": "La voiture initiant au Rallye en compétition sous le nom « Volkswagen R Continental »",
     "description_en": "The car that introduces Rally competition, racing under the name \"Volkswagen R Continental\"",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/volkswagen-scirocco/1.jpg",
+      "/uploads/cars/volkswagen-scirocco/2.jpg",
+      "/uploads/cars/volkswagen-scirocco/3.jpg"
+    ],
+    "main_photo": "/uploads/cars/volkswagen-scirocco/1.jpg"
   },
   {
     "slug": "honda-civic",
@@ -183,8 +267,11 @@
     "status": "personnelle_apprentis",
     "description_fr": "Voiture que tout le monde a dès le début du jeu, parfaite pour apprendre la conduite",
     "description_en": "The car everyone has from the very start of the game, perfect for learning to drive",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/honda-civic/1.jpg",
+      "/uploads/cars/honda-civic/2.jpg"
+    ],
+    "main_photo": "/uploads/cars/honda-civic/1.jpg"
   },
   {
     "slug": "peugeot-308",
@@ -194,8 +281,13 @@
     "status": "basique",
     "description_fr": "Voiture que tout le monde peut se procurer pour apprendre le rallye.",
     "description_en": "A car anyone can get to learn rally driving.",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/peugeot-308/1.jpg",
+      "/uploads/cars/peugeot-308/2.jpg",
+      "/uploads/cars/peugeot-308/3.jpg",
+      "/uploads/cars/peugeot-308/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/peugeot-308/1.jpg"
   },
   {
     "slug": "infinity-g37",
@@ -205,8 +297,13 @@
     "status": "autres",
     "description_fr": "Voiture fun pour la course.",
     "description_en": "A fun car for racing.",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/infinity-g37/1.jpg",
+      "/uploads/cars/infinity-g37/2.jpg",
+      "/uploads/cars/infinity-g37/3.jpg",
+      "/uploads/cars/infinity-g37/4.jpg"
+    ],
+    "main_photo": "/uploads/cars/infinity-g37/1.jpg"
   },
   {
     "slug": "kia-stinger-gt",
@@ -216,7 +313,13 @@
     "status": "autres",
     "description_fr": "Voiture fun pour la course.",
     "description_en": "A fun car for racing.",
-    "photos": [],
-    "main_photo": null
+    "photos": [
+      "/uploads/cars/kia-stinger-gt/1.jpg",
+      "/uploads/cars/kia-stinger-gt/2.jpg",
+      "/uploads/cars/kia-stinger-gt/3.jpg",
+      "/uploads/cars/kia-stinger-gt/4.jpg",
+      "/uploads/cars/kia-stinger-gt/5.jpg"
+    ],
+    "main_photo": "/uploads/cars/kia-stinger-gt/1.jpg"
   }
 ]
